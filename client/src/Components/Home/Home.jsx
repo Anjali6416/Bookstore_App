@@ -6,11 +6,13 @@ import Col from 'react-bootstrap/Col';
 import BasicCard from '../Card/Card';
 const Home = () => {
   return (
+    <>
     <div className={style.main}>
        
      
     <Container>
-      <Row>
+    
+      <Row >
         <Col xs={12} md={6}>
             <div className={style.textDiv}>
           <h1>Buy and Sell your textbooks for best Prices </h1> 
@@ -26,7 +28,7 @@ const Home = () => {
   </div>
 </nav>
  </div></Col>
-        <Col xs={12} md={6} style={{border: "1px solid black"}}>
+        <Col xs={12} md={6} >
           <div className={style.imageDiv}>
           <img src="https://i.pinimg.com/originals/47/ba/bb/47babb5dda082f490ebe21390a9cad2c.png"/>
           </div>
@@ -34,10 +36,21 @@ const Home = () => {
       </Row>
       
     </Container>
-     <div>
-        <BasicCard/>
-     </div>
+     
     </div>
+   <div className='border-red p-4 ' style={{background:'#ECEFEC'}}>
+    <h1 className='text-center p-4'>Books</h1>
+   <Container>
+      <Row className='gx-5 gy-5'>
+                <Col xs={12} sm={6} md={3}> <BasicCard/></Col>
+                <Col xs={12} sm={6} md={3}> <BasicCard/></Col>
+                <Col xs={12} sm={6} md={3}> <BasicCard/></Col>
+                <Col xs={12} sm={6} md={3}> <BasicCard/></Col>
+              </Row>
+          </Container>
+  
+</div>
+</>
   )
 }
 
