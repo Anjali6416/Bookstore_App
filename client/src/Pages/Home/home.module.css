@@ -1,0 +1,28 @@
+* {
+  font-family: "Merriweather", serif;
+}
+.main {
+  background-color: #ecefec;
+  min-height: 450px;
+  width: 100%;
+
+  /* border: 2px solid red; */
+  /* display: flex; */
+}
+.imageDiv {
+  /* border: 1px solid green; */
+  padding: 40px;
+}
+.imageDiv img {
+  width: 100%;
+}
+.textDiv {
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*                AIzaSyBNMGBuQZI1jXLtcDWD1ngvae7r3m2_y80      */
+/* https://www.googleapis.com/books/v1/volumes?q={search_query}&key={  AIzaSyBNMGBuQZI1jXLtcDWD1ngvae7r3m2_y80 } */
