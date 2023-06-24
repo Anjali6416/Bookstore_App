@@ -14,9 +14,30 @@ Discover, explore, and shop for your favorite books with ease using our book sto
 - Checkout Page
 
 
+
 ### Tech Stack
 
 Frontend - Reactjs, Redux, Bootstrap
+
+### Home Page
+
+<img src="./client/public/screenshots/Screenshot%20(26).png"/>
+
+### List of All Books
+
+<img src="./client/public/screenshots/Screenshot%20(27).png"/>
+
+### Book Details Page
+
+<img src="./client/public/screenshots/Screenshot%20(28).png"/>
+
+### Cart Page
+
+<img src="./client/public/screenshots/Screenshot%20(29).png"/>
+
+### Checkout Page
+
+<img src="./client/public/screenshots/Screenshot%20(30).png"/>
 
 
 ## Frontend (Client)
@@ -25,6 +46,6 @@ Frontend - Reactjs, Redux, Bootstrap
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
-Deployed Link - https://v-call-anjali6416.vercel.app
+Deployed Link -https://anjali-book-store-app.netlify.app/
 
 
